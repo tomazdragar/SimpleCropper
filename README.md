@@ -30,7 +30,8 @@ Demo
 Demo page  : http://dragar.net/demo/SimpleCropper
 
 
-
-Author     : Tomaz Dragar
-Mail       : <tomaz@dragar.net>
+About author
+----------------------------
+Name       : Tomaz Dragar 
+Mail       : <tomaz@dragar.net> 
 Homepage   : http://dragar.net
