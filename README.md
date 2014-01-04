@@ -26,5 +26,5 @@ Feature Overview
 * Support for CSS styling
 
 Author     : Tomaz Dragar
-Mail       : <simplecropper@dragar.net>
+Mail       : <tomaz@dragar.net>
 Homepage   : http://www.dragar.net
