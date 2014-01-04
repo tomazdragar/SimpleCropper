@@ -17,7 +17,7 @@ Tested on
 * Internet Explorer 10+ (still problems with css)
 
 Feature Overview
-----------------
+----------------------------
 
 * Attaches to any div element
 * Automatically detects aspect ratio of an element 
@@ -25,6 +25,12 @@ Feature Overview
 * Cropped images are generated client-side
 * Support for CSS styling
 
+Demo
+----------------------------
+Demo page  : http://dragar.net/demo/SimpleCropper
+
+
+
 Author     : Tomaz Dragar
 Mail       : <tomaz@dragar.net>
-Homepage   : http://www.dragar.net
+Homepage   : http://dragar.net
