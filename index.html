@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Cropper</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- Css files-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/style-example.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.Jcrop.css" />
+
+    <!-- Js files-->
+    <script type="text/javascript" src="scripts/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.Jcrop.js"></script>
+    <script type="text/javascript" src="scripts/jquery.SimpleCropper.js"></script>
+  </head>
+  <body>
+    <div class="simple-cropper-images">
+      <h1>Simple Cropper</h1>
+      <div class="cropme" style="width: 405px; height: 200px;"></div>
+      <div class="cropme" style="width: 405px; height: 200px;"></div>
+      <div class="cropme" style="width: 200px; height: 405px;"></div>
+      <div class="cropme" style="width: 200px; height: 200px;"></div>
+      <div class="cropme" style="width: 200px; height: 200px;"></div>
+      <div class="cropme" style="width: 200px; height: 200px;"></div>
+      <div class="cropme" style="width: 610px; height: 200px;"></div>
+      <div class="clear"></div>
+      <script>
+        // Init Simple Cropper
+        $('.cropme').simpleCropper();
+      </script>
+
+      <h2>Usage</h2>
+      <div class="text">
+        1. Include all scripts and css files to your html file.
+      </div>
+      <div class="code">
+        <xmp>
+          <!-- Css files-->
+          <link rel="stylesheet" type="text/css" href="css/style.css" />
+          <link rel="stylesheet" type="text/css" href="css/style-example.css" />
+          <link rel="stylesheet" type="text/css" href="css/jquery.Jcrop.css" />
+
+          <!-- Js files-->
+          <script type="text/javascript" src="scripts/jquery-1.10.2.min.js"></script>
+          <script type="text/javascript" src="scripts/jquery.Jcrop.js"></script>
+          <script type="text/javascript" src="scripts/jquery.SimpleCropper.js"></script>
+        </xmp>
+      </div>
+      <div class="text">
+        2. Create element, which you would like to attach the Simple Cropper and then call simpleCropper().
+      </div>
+      <div class="code">
+        <xmp>
+          <!-- Create element to which you would like to attach Simple Cropper -->
+          <div class="cropme"></div>
+
+          <!-- Select all elements with class cropme and initialize Simple Cropper -->
+          <script>
+            $('.cropme').simpleCropper();
+          </script>
+        </xmp>
+      </div>
+      <div class="text">
+        That's it! Your freshly cropped image resides (base64 encoded) inside your .cropme element.
+      </div>
+    </div>
+
+  </body>
+</html>

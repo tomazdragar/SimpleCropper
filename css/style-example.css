@@ -1,0 +1,71 @@
+/* 
+    Author     : Tomaz Dragar
+    Mail       : <tomaz@dragar.net>
+    Homepage   : http://www.dragar.net
+*/
+
+.clear{
+  font-size: 0px;
+  line-height: 0px;
+  overflow: hidden;
+  width: 0px;
+  height: 0px;
+  clear: both;
+}
+
+h1{
+  display: block;
+  font-family: arial;
+  font-size: 35px;
+  color: #39acac;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+h2{
+  display: block;
+  clear: both;
+  font-family: arial;
+  font-size: 25px;
+  color: #39acac;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.simple-cropper-images{
+  width: 820px;
+  margin: 0 auto 20px;
+  
+}
+
+.cropme{
+  float: left;
+  background-color: #f1f1f1;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  background-image: url('../images/UploadLight.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.cropme:hover{
+  background-image: url('../images/UploadDark.png');
+}
+
+.text{
+  font-family: arial;
+  font-size: 14px;
+  color: #4e4e4e;
+  margin-bottom: 20px;
+}
+
+.code{
+  font-family: arial;
+  font-size: 14px;
+  color: #4e4e4e;
+  margin-bottom: 20px;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
