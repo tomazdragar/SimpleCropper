@@ -118,6 +118,9 @@
                             scaled_height = current_image.height;
                         }
 
+                        // set the image size to the scaled proportions which is required for at least IE11
+                        current_image.style['width'] = scaled_width + 'px';
+                        current_image.style['height'] = scaled_height + 'px';
 
                         // Position the modal div to the center of the screen
                         $('#modal').css('display', 'block');
